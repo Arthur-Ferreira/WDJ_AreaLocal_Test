@@ -1,3 +1,5 @@
+<?php
+
 function render_posts() {
   $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
   $query = new WP_Query( [
@@ -9,7 +11,6 @@ function render_posts() {
   if($query -> have_posts()) {
     while($query -> have_posts()) {
       $query -> the_post();
-      
       ?>
       <article>
         <h2><?php the_title(); ?></h2>
@@ -25,3 +26,5 @@ function render_posts() {
 
   wp_reset_postdata();
 }
+
+?>

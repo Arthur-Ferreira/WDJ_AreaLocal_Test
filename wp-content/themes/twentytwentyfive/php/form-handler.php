@@ -1,3 +1,6 @@
+<?php
+
+
 function form_render() {
   ?>
     <form id="post-form" method="post">

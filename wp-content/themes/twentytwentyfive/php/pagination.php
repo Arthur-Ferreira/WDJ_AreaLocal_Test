@@ -1,3 +1,5 @@
+<?php
+
 function pagination($query) {
   $big = 999999999;
   echo paginate_links([
@@ -7,5 +9,7 @@ function pagination($query) {
     'total' => $query->max_num_pages,
     'prev_text' => '«',
     'next_text' => '»',
-    ])
+  ]);
 }
+
+?>

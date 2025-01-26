@@ -160,3 +160,6 @@ endif;
 require get_template_directory() . '/php/form-handler.php';
 require get_template_directory() . '/php/pagination.php';
 require get_template_directory() . '/php/posts-list.php';
+
+get_template_part('template-parts/content-form');
+get_template_part('template-parts/content-posts');
