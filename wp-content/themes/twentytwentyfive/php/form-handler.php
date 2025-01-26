@@ -1,5 +1,5 @@
-<?php
 function form_render() {
+  ?>
     <form id="post-form" method="post">
       <label for="title">Título: </label>
       <input type="title" id="title" title="title" required>
@@ -12,6 +12,7 @@ function form_render() {
 
       <button type="submit" name="submit-post">Enviar</button>
     </form>
+    <?php
 }
 
 function form_submission_handler() {

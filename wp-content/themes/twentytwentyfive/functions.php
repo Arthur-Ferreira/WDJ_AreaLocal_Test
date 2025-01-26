@@ -156,3 +156,7 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 		}
 	}
 endif;
+
+require get_template_directory() . '/php/form-handler.php';
+require get_template_directory() . '/php/pagination.php';
+require get_template_directory() . '/php/posts-list.php';
