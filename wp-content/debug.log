@@ -1,0 +1,80 @@
+[27-Jan-2025 02:24:09 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:24:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function form_render() in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\functions.php(12): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(672): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php on line 6
+[27-Jan-2025 02:24:23 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:24:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function form_render() in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\functions.php(12): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(672): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php on line 6
+[27-Jan-2025 02:26:18 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:26:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function form_render() in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\functions.php(12): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(672): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php on line 6
+[27-Jan-2025 02:27:50 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:27:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function form_render() in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\functions.php(12): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(672): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php on line 6
+[27-Jan-2025 02:28:43 UTC] PHP Warning:  require_once(C:\xampp\htdocs\wordpress/wp-content/themes/webdeveloperjunior./templates/home.php): Failed to open stream: Permission denied in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\functions.php on line 12
+[27-Jan-2025 02:28:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\wordpress/wp-content/themes/webdeveloperjunior./templates/home.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\functions.php:12
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-settings.php(672): include()
+#1 C:\xampp\htdocs\wordpress\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\functions.php on line 12
+[27-Jan-2025 02:29:29 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:29:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function form_render() in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php:6
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\functions.php(12): require_once()
+#1 C:\xampp\htdocs\wordpress\wp-settings.php(672): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-config.php(105): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\webdeveloperjunior\templates\home.php on line 6
+[27-Jan-2025 02:30:06 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:06 UTC] PHP Deprecated:  File Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:09 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:09 UTC] PHP Deprecated:  File Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:20 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:20 UTC] PHP Deprecated:  File Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:21 UTC] PHP Deprecated:  Function wp_update_https_detection_errors is <strong>deprecated</strong> since version 6.4.0 with no alternative available. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:24 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:24 UTC] PHP Deprecated:  File Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:27 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:27 UTC] PHP Deprecated:  File Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:30 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:30 UTC] PHP Deprecated:  File Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:33 UTC] PHP Deprecated:  File Theme without header.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a header.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114
+[27-Jan-2025 02:30:33 UTC] PHP Deprecated:  File Theme without footer.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a footer.php template in your theme. in C:\xampp\htdocs\wordpress\wp-includes\functions.php on line 6114

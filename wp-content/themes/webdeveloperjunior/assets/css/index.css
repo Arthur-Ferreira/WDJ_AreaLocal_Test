@@ -1,0 +1,32 @@
+/*
+Theme Name: Twenty Twenty-Five Child
+Template: twentytwentyfive
+*/
+
+article {
+  width: 48rem;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.post-item {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.post-item:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

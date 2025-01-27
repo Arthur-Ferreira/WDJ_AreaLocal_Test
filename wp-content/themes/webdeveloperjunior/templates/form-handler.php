@@ -1,21 +1,7 @@
 <?php
 
-
-function form_render() {
-  ?>
-    <form id="post-form" method="post">
-      <label for="title">Título: </label>
-      <input type="title" id="title" title="title" required>
-
-      <label for="content">Descrição: </label>
-      <input type="content" id="content" title="content" required>
-
-      <label for="image">Imagem Destacada: </label>
-      <input type="file" id="image" title="image" required>
-
-      <button type="submit" name="submit-post">Enviar</button>
-    </form>
-    <?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['custom_post_submit'])) {
+  include_once 'form-handler.php';
 }
 
 function form_submission_handler() {
