@@ -3,11 +3,11 @@
 function form_render() {
   ?>
     <article>
-      <form id="post-form" method="post">
+      <form id="form" method="post" name="postform" enctype="multipart/form-data" action="">
         <label for="title">Título: </label>
         <input type="text" id="title" name="title" required>
 
-        <label for="content">Descrição: </label>
+        <label for="content">Conteúdo: </label>
         <textarea id="content" name="content" required></textarea>
 
         <label for="image">Imagem Destacada: </label>

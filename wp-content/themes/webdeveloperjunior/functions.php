@@ -1,12 +1,12 @@
 <?php
 function child_theme_enqueue_styles() {
-    wp_enqueue_style('parent-style', get_template_directory_uri() . '/assets/css/index.css');
+  wp_enqueue_style('parent-style', get_template_directory_uri() . '/assets/css/style.css');
 }
 add_action('wp_enqueue_scripts', 'child_theme_enqueue_styles');
 
 add_action( 'after_setup_theme', 'custom_post_format_setup' );
 function custom_post_format_setup() {
-    add_theme_support( 'post-formats', array( 'aside', 'gallery', 'quote' ) );
+  add_theme_support( 'post-formats', array( 'aside', 'gallery', 'quote' ) );
 }
 
 require_once get_template_directory() . '/templates/form-render.php';
