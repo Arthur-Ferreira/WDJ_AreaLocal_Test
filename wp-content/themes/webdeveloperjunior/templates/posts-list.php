@@ -11,13 +11,7 @@ function render_posts() {
   if($query -> have_posts()) {
     while($query -> have_posts()) {
       $query -> the_post();
-      ?>
-      <article>
-        <h2><?php the_title(); ?></h2>
-        <p><?php the_excerpt(); ?></p>
-        <a href="<?php the_permalink(); ?>">Saiba mais</a>
-      </article>
-      <?php
+      get_template_part('template-parts/post-item', 'post');
     }
     pagination($query);
   } else {
