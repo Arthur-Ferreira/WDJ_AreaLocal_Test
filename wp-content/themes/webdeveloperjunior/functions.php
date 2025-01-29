@@ -1,4 +1,11 @@
 <?php
+require_once get_template_directory() . '/includes/form-render.php';
+require_once get_template_directory() . '/includes/form-handler.php';
+require_once get_template_directory() . '/includes/pagination.php';
+require_once get_template_directory() . '/templates/posts-list.php';
+require_once get_template_directory() . '/templates/home.php';
+
+
 function child_theme_enqueue_styles() {
   wp_enqueue_style('parent-style', get_template_directory_uri() . '/assets/css/style.css');
 }
@@ -9,11 +16,6 @@ function custom_post_format_setup() {
   add_theme_support( 'post-formats', array( 'aside', 'gallery', 'quote' ) );
 }
 
-require_once get_template_directory() . '/templates/form-render.php';
-require_once get_template_directory() . '/templates/form-handler.php';
-require_once get_template_directory() . '/templates/pagination.php';
-require_once get_template_directory() . '/templates/posts-list.php';
-require_once get_template_directory() . '/templates/home.php';
 
 // **Configurações do tema**
 function theme_setup() {
