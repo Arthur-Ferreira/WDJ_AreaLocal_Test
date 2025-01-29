@@ -20,11 +20,9 @@ function render_posts() {
       ?>
     </section>
     <?php
-      wp_reset_postdata();
   } else {
     echo 'Nenhum post encontrado';
   }
-
   wp_reset_postdata();
 }
 
