@@ -3,9 +3,9 @@
 function render_posts() {
   $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
   $query = new WP_Query( [
-    'post_type' => 'post',
-    'posts_per_page' => 9,
-    'paged' => $paged
+    'post_type'        => 'post',
+    'posts_per_page'   => 9,
+    'paged'            => $paged
   ]);
 
   if($query -> have_posts()) {
