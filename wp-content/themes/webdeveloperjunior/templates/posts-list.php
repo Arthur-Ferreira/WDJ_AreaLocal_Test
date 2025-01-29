@@ -9,11 +9,18 @@ function render_posts() {
   ]);
 
   if($query -> have_posts()) {
-    while($query -> have_posts()) {
-      $query -> the_post();
-      get_template_part('template-parts/post-item', 'post');
-    }
-    pagination($query);
+    ?>
+    <section>
+      <?php
+        while($query -> have_posts()) {
+          $query -> the_post();
+          get_template_part('template-parts/post-item', 'post');
+        }
+        pagination($query);
+      ?>
+    </section>
+    <?php
+      wp_reset_postdata();
   } else {
     echo 'Nenhum post encontrado';
   }

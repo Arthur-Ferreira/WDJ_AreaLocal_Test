@@ -1,13 +1,14 @@
 <?php get_header(); ?>
 
-<div class="content">
+<main>
+  <h1>Bem-vindo ao Wordpress Posts</h1>
     <?php 
-    // Exibe o formulário renderizado pelo home.php
+    // Exibe o formulário de postagem
     form_render();
     
-    // Exibe a lista de posts renderizado pelo home.php
+    // Exibe a lista de postagem
     render_posts();
     ?>
-</div>
+</main>
 
 <?php get_footer(); ?>
