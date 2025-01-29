@@ -2,7 +2,7 @@
 
 function form_render() {
   ?>
-    <article>
+    <section>
       <form id="form" method="post" name="postform" enctype="multipart/form-data" action="">
         <label for="title">Título: </label>
         <input type="text" id="title" name="title" required>
@@ -15,7 +15,7 @@ function form_render() {
 
         <button type="submit" name="submit-post">Enviar</button>
       </form>
-    </article>
+    </section>
     <?php
 }
 ?>
