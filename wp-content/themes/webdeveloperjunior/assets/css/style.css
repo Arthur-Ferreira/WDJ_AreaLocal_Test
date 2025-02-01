@@ -1,10 +1,46 @@
 /*
-Theme Name: Twenty Twenty-Five Child
-Template: twentytwentyfive
+Theme Name: Web Developer Junior
+Template: webdeveloperjunior
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font: normal 16px Arial, sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+header,
+footer {
+  text-align: center;
+  width: 100%;
+}
+
+header .header-container,
+footer .footer-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
 section {
-  width: 46rem;
+  width: 100%;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
@@ -32,7 +68,7 @@ textarea {
   background-color: #fff;
   color: #222222;
   font-size: 16px;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Poppins", sans-serif;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -55,7 +91,7 @@ button {
   padding: 0 46px;
   cursor: pointer;
   transition: all 0.3s ease;
-  width: auto;
+  margin: 0 auto;
 }
 
 button:hover,

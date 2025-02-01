@@ -20,6 +20,7 @@ function custom_post_format_setup() {
 }
 add_action( 'after_setup_theme', 'custom_post_format_setup' );
 
+require_once get_template_directory() . '/config/theme-setup.php';
 require_once get_template_directory() . '/includes/form-render.php';
 require_once get_template_directory() . '/includes/form-handler.php';
 require_once get_template_directory() . '/includes/pagination.php';
