@@ -11,24 +11,30 @@ function render_posts()
 
   if ($query->have_posts()) {
 ?>
-    <section>
-      <ul id="posts-list" class="posts-list">
-        <?php
-        while ($query->have_posts()) {
-        ?>
-          <li class="post-item">
-            <?php
-            $query->the_post();
-            get_template_part('template-parts/post-item', 'post');
-            ?>
-          </li>
-        <?php
-        }
-        ?>
-      </ul>
+    <section class="wrapper posts">
+      <div class="container">
+        <ul id="posts-list" class="posts-list">
+          <?php
+          while ($query->have_posts()) {
+          ?>
+            <li class="post-item">
+              <?php
+              $query->the_post();
+              get_template_part('template-parts/post-item', 'post');
+              ?>
+            </li>
+          <?php
+          }
+          ?>
+        </ul>
+      </div>
     </section>
-    <?php
-    pagination($query);
+    <div class="wrapper pagination">
+      <?php
+      pagination($query);
+      ?>
+    </div>
+<?php
   } else {
     echo 'Nenhum post encontrado';
   }
