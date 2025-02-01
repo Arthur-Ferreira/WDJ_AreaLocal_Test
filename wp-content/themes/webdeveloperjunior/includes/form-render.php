@@ -3,7 +3,7 @@
 function form_render() {
  ?>
   <section>
-    <form id="form" method="post" name="postform" enctype="multipart/form-data" action="">
+    <form id="post-form" method="post" name="postform" enctype="multipart/form-data">
       <label for="title">Título: </label>
       <input type="text" id="title" name="title" required>
 
@@ -13,7 +13,7 @@ function form_render() {
       <label for="image">Imagem Destacada: </label>
       <input type="file" id="image" name="image" required>
 
-      <button type="submit" name="submit-post">Enviar</button>
+      <button type="submit">Enviar</button>
     </form>
   </section>
   <?php
