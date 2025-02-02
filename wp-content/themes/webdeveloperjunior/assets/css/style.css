@@ -147,7 +147,6 @@ button:focus-visible {
   padding: 1rem;
   border-radius: 8px;
   transition: box-shadow 0.3s;
-  flex-grow: 1;
   background-color: #fff;
 }
 
