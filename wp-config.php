@@ -94,10 +94,10 @@ define('WP_DEBUG', false);
 /* Add any custom values between this line and the "stop editing" line. */
 
 /** Site Home */
-// define('WP_HOME', 'https://areadeprojetos.com.br/areadeprojetos13/wordpress/');
+define('WP_HOME', 'https://areadeprojetos.com.br/areadeprojetos13/wordpress/');
 
 /** Site URL */
-// define('WP_SITEURL', 'https://areadeprojetos.com.br/areadeprojetos13/wordpress/');
+define('WP_SITEURL', 'https://areadeprojetos.com.br/areadeprojetos13/wordpress/');
 
 
 /* That's all, stop editing! Happy publishing. */
