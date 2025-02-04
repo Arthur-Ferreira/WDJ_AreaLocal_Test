@@ -13,7 +13,7 @@ function form_render()
     <label for="image">Imagem Destacada: </label>
     <input type="file" id="image" name="image" required>
 
-    <button type="submit">Enviar</button>
+    <button id="submit-btn" type="submit">Enviar</button>
   </form>
 <?php
 }
