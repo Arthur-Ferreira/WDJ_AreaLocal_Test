@@ -7,6 +7,8 @@ add_action('wp_enqueue_scripts', 'child_theme_enqueue_styles');
 
 
 function child_theme_enqueue_scripts() {
+  wp_enqueue_script('jquery');
+
   wp_enqueue_script('form-ajax', get_template_directory_uri() . '/assets/js/form-ajax.js', array('jquery'), null, true);
 
   wp_localize_script('form-ajax', 'ajax_object', array(
