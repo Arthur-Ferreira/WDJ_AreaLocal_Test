@@ -138,6 +138,14 @@ button:focus-visible {
   outline: solid 1px #ff9d0d;
 }
 
+button:disabled {
+  background: #fff;
+  color: #ccc;
+  cursor: not-allowed;
+  border-color: #ccc;
+  outline-color: #ccc;
+}
+
 /* Posts Section */
 
 .posts {
