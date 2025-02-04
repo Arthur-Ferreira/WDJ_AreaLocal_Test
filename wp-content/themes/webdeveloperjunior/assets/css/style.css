@@ -60,12 +60,13 @@ a:active {
   text-decoration: underline;
 }
 
-/* Forms Section */
-
 .wrapper {
   width: 100%;
   padding: 4rem 2rem;
 }
+
+
+/* Forms Section */
 
 .info span {
   font-size: 1rem;
@@ -79,6 +80,17 @@ a:active {
   gap: 1rem;
   max-width: 70rem;
   margin: 0 auto 2rem;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 1rem;
+  font-weight: 600;
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 form {
